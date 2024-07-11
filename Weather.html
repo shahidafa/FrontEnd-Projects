@@ -39,6 +39,7 @@
   </div>
 
   <script>
+    // Taking this details from open weather app website 
     const apikey ="0a329a4e99e8956b49ee024ad5c6f4df";
     const apiurl ="https://api.openweathermap.org/data/2.5/weather?&=&units=metric&q=";
     const searchBox = document.querySelector(".search input");
@@ -89,8 +90,6 @@ else if(data.weather[0].main == "Snow"){
 
 
       }
-
-    
 
     }
     searchBtn.addEventListener("click", () => {
